@@ -1,0 +1,13 @@
+<?php
+
+    $keys = Array(
+        // Used for hashing the user info for identity verification
+        'intercom' => "Your Intercom Secret Key", 
+        // API key for Stripe to integrate with your Stripe account (can be live/test key)
+        'stripe' => "Your Stripe API Key"
+    );
+
+    // Database connector
+    $dbc = mysqli_connect("localhost", "username", "password", "database");
+
+?>
