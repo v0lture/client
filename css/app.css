@@ -1,0 +1,62 @@
+body {
+    font-family: "Muli", sans-serif;
+    background: #303030;
+    color: white;
+    padding: 15px;
+    padding-top: 75px;
+}
+
+a {
+    color: #9233AF;
+}
+
+.progress > .determinate {
+    background: #9233AF;
+}
+
+p {
+    margin: 0;
+}
+
+.sidebaritem {
+    width: 100%;
+    transition: all 1s;
+    padding: 5px 2.5px;
+    font-size: 14px;
+    margin: 5px;
+    color: #D54AFF;
+}
+
+.sidebaritem:hover {
+    color: #9233AF;
+}
+
+.sidebaritem.title {
+    font-size: 12px;
+    background: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 45px;
+}
+
+.sidebaritem.title:hover {
+    color: white;
+}
+
+.sidebaritem.space {
+    height: 24px;
+}
+
+.content {
+    width: 100%;
+    border-radius: 2.5px;
+    background: #232323;
+    min-height: 64px;
+    padding: 15px;
+}
+
+.content > h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
